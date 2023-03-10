@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import H1 from './H1'
+import Header from './Header'
 import reportWebVitals from './reportWebVitals';
 
 class App extends React.Component {
@@ -19,7 +19,7 @@ root.render(
   <React.StrictMode>
     <App />
     <p className='header'>Просто код</p>
-    <H1 />
+    <Header />
   </React.StrictMode>
 );
 
